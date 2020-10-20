@@ -7,7 +7,9 @@
 
 // SETTINGS
 // Contient les variables sur les polices, les définitions de couleurs, les définitions de  grandeurs,   etc.
-
+@import"settings/colors";
+@import"settings/dimensions";
+@import"settings/fonts";
 
 
 
@@ -20,8 +22,9 @@
 
 // ELEMENTS
 // Modification des styles généraux de la page. Ce sont les styles qui seront généralement hérités par les éléments de la page.
-
-
+@import"elements/body";
+@import"elements/headings";
+@import"elements/links";
 
 
 

@@ -1,0 +1,23 @@
+:root{
+
+  // Couleur de base
+  --color-white: #fff;
+  --color-black: #000;
+
+  //Couleur du projet
+
+
+  // couleur liens
+  --color-link:rgb(213, 246, 247);
+  --color-link-visited:rgb(61, 74, 74);
+  --color-link-hover:rgb(255, 0, 195);
+  --color-link-active:rgb(250, 42, 201);
+  --color-link-focus:rgb(96, 23, 99);
+  //Couleur arriere-plan
+--color-bg-primary:rgba(23, 251, 255 , 0.85);
+  // couleurs dégradé darriere plan
+  --bg-gradient: linear-gradient(60deg, rgb(188, 232, 247),rgb(237, 183, 217));
+  //couleur du texte
+  --color-text-primary:#FFFFFF;
+  --color-text-secondary:#0f0f0f;
+}

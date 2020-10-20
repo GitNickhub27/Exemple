@@ -1,0 +1,21 @@
+body{
+ font-family: var(--ff-normal);
+ font-size:var(--fz-normal);
+ color:var(--color-text-primary);
+ line-height: var(--lh-normal);
+ background:var(--color-bg-primary) ;
+
+}
+.mon-site{
+  height: 200vh;
+  color: var(--color-white);
+  text-align: center;
+ }
+
+
+
+ @media screen and (min-width: $vw-medium) {
+  .mon-site{
+   padding: 200px;
+  }
+ }

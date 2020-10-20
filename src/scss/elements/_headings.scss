@@ -1,0 +1,28 @@
+
+h1, h2, h3{
+ font-family:var(--ff-title) ;
+line-height: var(--lh-extra-thin);
+
+}
+h1{
+ font-size:var(--fz-h2);
+margin:0;
+}
+
+  h2{
+   font-size:var(--fz-h3) ;
+
+  }
+
+
+
+.mon-site{
+  h3{
+    font-size:var(--fz-h3);
+  }
+}
+
+
+h3{
+  font-size:var(--fz-h6);
+}

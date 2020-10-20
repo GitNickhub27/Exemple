@@ -2,14 +2,22 @@
 
   // Grosseur des textes
 
-  --fz-normal: 1.125rem;  //18px
+  --fz-normal: 1.125rem; //18px
 
   // Grosseur des titres
 
---fz-h1:1.5rem;
-  --fz-h2:8rem;
-  --fz-h3:1.2rem;
+  --fz-h1:1.5rem;
+  --fz-h2:3rem;
+  --fz-h3:8rem;
+  --fz-h4:1.4rem;
+  --fz-h5:1.6rem;
+  --fz-h6:1.8rem;
 
+  //poids des polices
+  --fw-black:900;
+  --fw-light: 300;
+  --fw-medium: 500;
+  --fw-normal: 400;
 
 
   // Hauteur de ligne
@@ -20,7 +28,10 @@
   --lh-large: 2;
   --lh-extra-large: 2.4;
 
+//font-family
 
+  --ff-normal: 'Montserrat', sans-serif;
+  --ff-title: 'Big Shoulders Display', cursive;
 
 
 }
