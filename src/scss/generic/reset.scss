@@ -1,0 +1,16 @@
+
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+button {
+  background: none;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
