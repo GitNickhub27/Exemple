@@ -1,14 +1,22 @@
 
 h1, h2, h3{
- font-family:var(--ff-title) ;
+ font-family:var(--ff-title);
 line-height: var(--lh-extra-thin);
-
 }
 h1{
  font-size:var(--fz-h1);
+
 margin:0;
 }
+.ul-logo{
+  h1{
+    font-size:var(--fz-mobile);
 
+  }
+
+
+
+}
   h2{
    font-size:var(--fz-h3) ;
 
@@ -24,5 +32,5 @@ margin:0;
 
 
 h3{
-  font-size:var(--fz-h6);
+  font-size:var(--fz-h2);
 }

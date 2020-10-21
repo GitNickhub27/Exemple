@@ -1,0 +1,56 @@
+.mediaqueries{
+  margin-top: var(--margin-large);
+  display:flex;
+flex-wrap: wrap;
+  .flex-articles{
+    background-color: var(--color-link-hover);
+
+
+  }
+  .Message2{
+    display:none;
+  }
+  .Message3{
+    display:none;
+
+  }
+}
+.flex-articles{
+ width:100%;
+}
+@media screen and (min-width:$vw-medium){
+.mediaqueries{
+
+  .flex-articles{
+    width:33.3333%;
+  background-color: var(--color-link-visited);
+  }
+  .Message1{
+    display:none;
+
+  }
+  .Message2{
+    display:block;
+
+  }
+}
+
+
+}
+@media screen and (min-width:1440px){
+  .mediaqueries{
+    .flex-articles{
+      width:25%;
+      background-image:var(--bg-gradient);
+    }
+    .Message2{
+      display:none;
+    }
+    .Message3{
+      display:block;
+
+    }
+  }
+
+
+}

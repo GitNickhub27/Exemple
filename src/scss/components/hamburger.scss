@@ -1,0 +1,30 @@
+.hamburger-animation{
+  position:relative;
+  .material-icons{
+    font-size:3rem;
+    color:var(--color-text-primary);
+  }
+  .icon-open, .icon-close{
+    transition: .3s transform ease-out;
+
+  }
+  .icon-close{
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(0);
+  }
+  &.open{
+    .icon-open, .icon-close{
+      transition: .3s transform ease-in;
+
+    }
+    .icon-close{
+      transform: translate(-50%, -50%) scale(1);
+    }
+    .icon-open{
+      transform:scale(0);
+    }
+  }
+}
